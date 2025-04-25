@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "mcp_layers": {
+    "meta": {
+      "description": "元认知层，负责整体推理策略",
+      "prompts": {
+        "strategy_planning": "分析当前进度，规划下一步推理方向",
+        "assumption_validation": "验证推理假设的合理性",
+        "progress_evaluation": "评估整体推理进展"
+      }
+    },
+    "cognitive": {
+      "description": "认知层，处理具体推理过程",
+      "prompts": {
+        "information_gathering": "收集和整理相关信息",
+        "pattern_recognition": "识别线索中的模式和关联",
+        "logical_deduction": "进行逻辑推理和演绎"
+      }
+    },
+    "perceptual": {
+      "description": "感知层，关注基础线索处理",
+      "prompts": {
+        "detail_observation": "观察故事中的具体细节",
+        "context_analysis": "分析故事背景和环境",
+        "character_study": "研究人物行为和动机"
+      }
+    }
+  },
+  "integration_rules": {
+    "layer_coordination": "确保各层级提示相互配合，形成完整的推理链",
+    "difficulty_adaptation": "根据难度级别调整各层级提示的比重",
+    "progress_based_focus": "根据推理进度动态调整关注的层级"
+  }
+}

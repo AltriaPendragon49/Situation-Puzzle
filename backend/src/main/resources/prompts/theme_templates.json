@@ -1,0 +1,49 @@
+{
+  "version": "1.0",
+  "themes": {
+    "crime": {
+      "description": "犯罪推理主题",
+      "prompt_elements": {
+        "story_focus": "犯罪动机、手法、证据和时间线",
+        "key_aspects": ["犯罪现场", "嫌疑人行为", "物证分析", "目击证词"],
+        "guidance_style": "侦探式推理，注重细节和逻辑"
+      },
+      "hint_strategies": {
+        "evidence_revelation": "循序渐进展示关键证据",
+        "suspect_analysis": "引导分析嫌疑人行为动机",
+        "timeline_reconstruction": "协助重建事件时间线"
+      }
+    },
+    "life": {
+      "description": "生活趣事主题",
+      "prompt_elements": {
+        "story_focus": "日常场景、人物关系、误会和巧合",
+        "key_aspects": ["人物性格", "环境描述", "社交互动", "情感因素"],
+        "guidance_style": "轻松幽默，注重生活化思维"
+      },
+      "hint_strategies": {
+        "context_explanation": "解释特定生活场景背景",
+        "relationship_analysis": "引导理解人物关系",
+        "misunderstanding_clarification": "帮助厘清误会源头"
+      }
+    },
+    "fantasy": {
+      "description": "奇幻冒险主题",
+      "prompt_elements": {
+        "story_focus": "魔法规则、世界观、冒险元素",
+        "key_aspects": ["魔法系统", "世界设定", "角色能力", "冒险挑战"],
+        "guidance_style": "富有想象力，注重规则和设定"
+      },
+      "hint_strategies": {
+        "world_building": "解释奇幻世界规则",
+        "magic_system": "引导理解魔法原理",
+        "quest_guidance": "协助解决冒险难题"
+      }
+    }
+  },
+  "integration_guidelines": {
+    "theme_consistency": "确保提示与主题风格一致",
+    "difficulty_adaptation": "根据难度调整主题元素复杂度",
+    "cross_theme_handling": "处理多主题交叉的情况"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "difficulty_levels": {
+    "easy": {
+      "description": "适合新手玩家的简单难度",
+      "prompt_strategies": {
+        "hint_frequency": "高频率提供提示",
+        "hint_clarity": "提示明确直接",
+        "guidance_style": "手把手引导",
+        "error_tolerance": "高容错率，多次机会"
+      },
+      "progression_rules": {
+        "initial_hints": "提供明确的起始方向",
+        "milestone_hints": "在关键节点给出清晰提示",
+        "correction_hints": "及时纠正明显的错误方向"
+      }
+    },
+    "medium": {
+      "description": "适合有经验玩家的中等难度",
+      "prompt_strategies": {
+        "hint_frequency": "适中频率提供提示",
+        "hint_clarity": "提示适度隐晦",
+        "guidance_style": "引导式启发",
+        "error_tolerance": "适中容错率"
+      },
+      "progression_rules": {
+        "initial_hints": "提供基本方向性提示",
+        "milestone_hints": "在关键节点给出引导性提示",
+        "correction_hints": "对明显错误方向给出委婉提示"
+      }
+    },
+    "hard": {
+      "description": "适合专家玩家的高难度",
+      "prompt_strategies": {
+        "hint_frequency": "低频率提供提示",
+        "hint_clarity": "提示高度隐晦",
+        "guidance_style": "启发式思考",
+        "error_tolerance": "低容错率"
+      },
+      "progression_rules": {
+        "initial_hints": "最小程度的方向提示",
+        "milestone_hints": "在关键节点给出模糊提示",
+        "correction_hints": "仅对致命错误方向给出提示"
+      }
+    }
+  },
+  "adaptation_rules": {
+    "difficulty_adjustment": "根据玩家表现动态调整提示难度",
+    "progress_based": "根据解题进度调整提示策略",
+    "error_based": "根据错误次数调整提示频率"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "templates": {
+    "base": {
+      "system": "你是一个专业的海龟汤故事创作者，擅长创作引人入胜的推理故事。",
+      "story": "请根据以下参数创建一个海龟汤故事：\n主题：{{theme}}\n难度：{{difficulty}}\n\n要求：\n1. 故事要简短精炼，但包含足够的细节引导玩家思考\n2. 确保故事逻辑严密，答案合理\n3. 设置适当的误导性线索\n4. 根据难度调整故事的复杂程度"
+    },
+    "themes": {
+      "crime": {
+        "description": "犯罪推理类故事",
+        "constraints": "故事需要包含作案手法、动机和关键线索"
+      },
+      "life": {
+        "description": "生活趣事类故事",
+        "constraints": "故事应该贴近日常生活，但包含有趣的误解或巧合"
+      },
+      "fantasy": {
+        "description": "奇幻冒险类故事",
+        "constraints": "可以包含魔法或超自然元素，但需要符合故事世界观"
+      }
+    },
+    "difficulties": {
+      "easy": {
+        "description": "简单难度",
+        "constraints": "线索明显，逻辑简单，适合入门玩家"
+      },
+      "medium": {
+        "description": "中等难度",
+        "constraints": "需要综合多个线索，有一定的思维跳跃"
+      },
+      "hard": {
+        "description": "困难难度",
+        "constraints": "线索隐晦，需要深入思考和创新推理"
+      }
+    }
+  }
+}

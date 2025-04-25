@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "stories": [
+    {
+      "id": "ST001",
+      "title": "神秘的红房间",
+      "type": "crime",
+      "difficulty": "medium",
+      "theme": "mystery",
+      "story": "一个男人走进一间红色的房间，突然倒地身亡。房间里只有一张桌子和一把椅子。",
+      "truth": "这个房间是一个暗房，用于冲洗照片。男人误入后打开了普通灯光，导致感光材料被曝光，释放出有毒气体致其死亡。",
+      "hints": [
+        "房间的颜色有特殊意义",
+        "注意房间的用途",
+        "思考光线的作用"
+      ]
+    },
+    {
+      "id": "ST002",
+      "title": "消失的早餐",
+      "type": "life",
+      "difficulty": "easy",
+      "theme": "daily",
+      "story": "小明早上醒来，发现餐桌上的早餐不见了，但家里只有他一个人。",
+      "truth": "小明是梦游者，他在睡梦中把早餐吃掉了，所以醒来后完全不记得。",
+      "hints": [
+        "考虑睡眠状态",
+        "回忆是否有类似经历",
+        "检查有无进食痕迹"
+      ]
+    },
+    {
+      "id": "ST003",
+      "title": "魔法森林",
+      "type": "fantasy",
+      "difficulty": "hard",
+      "theme": "magic",
+      "story": "一个女孩在森林里发现一棵会说话的树，但第二天再去时，树却消失了。",
+      "truth": "这棵树是一种稀有的'移动树'，它们每天都会在森林中换一个位置生长，以获取更好的阳光和养分。",
+      "hints": [
+        "观察地面痕迹",
+        "思考树木的生存需求",
+        "寻找相似的树"
+      ]
+    }
+  ],
+  "metadata": {
+    "total_stories": 3,
+    "categories": ["crime", "life", "fantasy"],
+    "difficulty_levels": ["easy", "medium", "hard"],
+    "themes": ["mystery", "daily", "magic"]
+  }
+}
